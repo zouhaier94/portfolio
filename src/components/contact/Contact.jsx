@@ -60,4 +60,8 @@ const Contact = () => {
 
 export default Contact
 
-{/* npm install emailjs-com --save*/}
+{/* 
+npm install emailjs-com --save
+https://www.emailjs.com/docs/examples/reactjs
+https://dashboard.emailjs.com/admin
+*/}
