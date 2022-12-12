@@ -5,7 +5,7 @@ import PetShop from '../../images/pet-shop.png'
 import AdminPanel from '../../images/admin-panel.png'
 import Messenger from '../../images/messenger.png'
 import GoMama from '../../images/go-mama.png'
-import FoodHome from '../../images/android-game.png'
+import FoodHome from '../../images/food-home.png'
 import Game from '../../images/android-game.png'
 
 
