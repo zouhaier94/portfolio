@@ -1,9 +1,9 @@
 import React from 'react'
 import './textimonials.css'
-import AVTR1 from '../../images/avatar1.jpg'
-import AVTR2 from '../../images/avatar2.jpg'
-import AVTR3 from '../../images/avatar3.jpg'
-import AVTR4 from '../../images/avatar4.jpg'
+import JonSnow from '../../images/jon-snow.jpg'
+import Tyrion from '../../images/tyrion.jpg'
+import Angelina from '../../images/angelina.jpg'
+import Mike from '../../images/mike.jpg'
 
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,24 +15,24 @@ import 'swiper/css/scrollbar';
 
 const data = [
   {
-    avatar:AVTR1,
-    name:'Name',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, possimus.'
+    avatar:JonSnow,
+    name:'Jon',
+    review: 'Nakeh fwere! yeios djuu haennoet  ytten u khkown lyrnguebo'
   },
   {
-    avatar:AVTR2,
-    name:'Name',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, possimus.'
+    avatar:Tyrion,
+    name:'Tyrion',
+    review: 'Zouhaier ub djuu haest ae jhera haest kantvelopeub en ae nhyrlbedii'
   },
   {
-    avatar:AVTR3,
-    name:'Name',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, possimus.'
+    avatar:Angelina,
+    name:'Angelina',
+    review: 'Zouhaier ub leu ch jhaimezz lin uterheorkuut ♥'
   },
   {
-    avatar:AVTR4,
-    name:'Name',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, possimus.'
+    avatar:Mike,
+    name:'Mike',
+    review: 'Zouhaier nyehgudaya djuu haest ae jherast!!!'
   }
 ]
 

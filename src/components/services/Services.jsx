@@ -11,28 +11,28 @@ const Services = () => {
       <div className="container services--container">
         <article className='service'>
           <div className="service--head">
-          <h3>UI/UX Design</h3>
+          <h3>Backend Web Development</h3>
           </div>
           <ul className='service--list'>
             <li>
               <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>CMS Systems Development </p>
             </li>
             <li>
               <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Firebase Realtime Database</p>
             </li>
             <li>
               <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>MySQL Database implementation </p>
             </li>
             <li>
               <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Fetching of JSON API's and Libraries</p>
             </li>
             <li>
               <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Implementation of PHP with MySQL</p>
             </li>
         
           </ul>
@@ -40,32 +40,36 @@ const Services = () => {
         {/* End UI/UX Design */}
         <article className='service'>
           <div className="service--head">
-          <h3>Web Development </h3>
+          <h3>Frontend Web Development </h3>
           </div>
           <ul className='service--list'>
             <li>
               <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>React JS Responsive Web Apps </p>
             </li>
             <li>
               <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Implementation of React JS Hooks</p>
             </li>
             <li>
               <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>The integration of Third Part JS Libraries </p>
             </li>
             <li>
               <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>CSS Design with Native CSS3</p>
             </li>
             <li>
               <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>CSS Design with Modern Tailwind CSS</p>
             </li>
             <li>
               <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>CSS Design with Bootstrap Tool</p>
+            </li>
+            <li>
+              <BiCheck className='service--list--icon'/>
+              <p>Implementation of React Libraries</p>
             </li>
         
           </ul>
@@ -73,33 +77,29 @@ const Services = () => {
         {/* End Web Development */}
         <article className='service'>
           <div className="service--head">
-          <h3>Content Creation </h3>
+          <h3>Mobile App Development </h3>
           </div>
           <ul className='service--list'>
             <li>
               <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Android Studio Native Apps</p>
             </li>
             <li>
               <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Flutter Cross Platform Apps</p>
             </li>
             <li>
               <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>UI/UX Design of Mobile Apps</p>
             </li>
             <li>
               <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service--list--icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>SLQLite and Firebase Implementation </p>
             </li>
         
           </ul>
         </article>
-        {/* End Content Creation  */}
+        {/* End Mobile App Development */}
       </div>
     </section>
   )

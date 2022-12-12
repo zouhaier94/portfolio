@@ -1,15 +1,13 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../images/portfolio1.jpg'
-import IMG2 from '../../images/portfolio2.jpg'
-import IMG3 from '../../images/portfolio3.jpg'
-import IMG4 from '../../images/portfolio4.jpg'
-import IMG5 from '../../images/portfolio5.png'
-import IMG6 from '../../images/portfolio6.jpg'
 import PetShop from '../../images/pet-shop.png'
 import AdminPanel from '../../images/admin-panel.png'
 import Messenger from '../../images/messenger.png'
+import GoMama from '../../images/go-mama.png'
+import FoodHome from '../../images/android-game.png'
+import Game from '../../images/android-game.png'
+
 
 
 // ...
@@ -31,30 +29,30 @@ const data = [
 {
   id:3,
   image:Messenger,
-  title:'Messenger',
+  title:'Messenger Web App',
   github:'https://github.com/zouhaier94/realtime-private-chat-app',
   demo:'https://new-messenger.netlify.app'
 },
 {
   id:4,
-  image:IMG4,
-  title:'Web Shop',
+  image:GoMama,
+  title:'Flutter Mobile App',
   github:'https://github.com',
-  demo:'https://google.com'
+  demo:'https://drive.google.com/file/d/18kDBUTd0DEs0rG7tSa4L-tkXalPKYB4I/view'
 },
 {
   id:5,
-  image:IMG5,
-  title:'Web Shop',
+  image:FoodHome,
+  title:'Android Retaurant App',
   github:'https://github.com',
-  demo:'https://google.com'
+  demo:'https://drive.google.com/file/d/1hcTHe5PwtwgTEkgnyz6FlUwT0ZHGASRC/view'
 },
 {
   id:6,
-  image:IMG6,
-  title:'Web Shop',
+  image:Game,
+  title:'Android Mobile Game',
   github:'https://github.com',
-  demo:'https://google.com'
+  demo:'https://drive.google.com/file/d/1qbxYH6ujmbYIc_p1_xrEBjKKq7CXSj5R/view'
 },
 
 ]
