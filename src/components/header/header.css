@@ -97,6 +97,15 @@ font-size: 0.9rem;
 header {
 height: 40vh;
 }
+/* The typing effect */
+@keyframes typing {
+from {
+width: 0;
+}
+to {
+width: 70%;
+}
+}
 }
 
 /* ========================== MEDIA QUERIES (SMALL DEVICES) ============================== */
@@ -108,5 +117,18 @@ height: 40vh;
 .header--socials,
 .scroll--down {
 display: none;
+}
+
+/* The typing effect */
+@keyframes typing {
+from {
+width: 0;
+}
+to {
+width: 70%;
+}
+}
+.typewriter {
+font-size: 1.5rem;
 }
 }
