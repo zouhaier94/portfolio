@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../images/me-about.jpg'
+import ME from '../../images/git-me.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -25,26 +25,27 @@ const About = () => {
           <article className='about--card'>
             <FaAward className='about--icon'/>
           <h5>Experience</h5>
-          <small>3+ Years Working</small>
+          <small>99+ Years Working</small>
           </article>
 
           <article className='about--card'>
             <FiUsers className='about--icon'/>
           <h5>Clients</h5>
-          <small>200+ Worldwide</small>
+          <small>999+ Worldwide</small>
           </article>
 
           <article className='about--card'>
             <VscFolderLibrary className='about--icon'/>
           <h5>Projects</h5>
-          <small>80+ Completed</small>
+          <small>99+ Completed</small>
           </article>
     </div>
 
     <p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eius 
-  assumenda repudiandae sit? Rem totam quisquam, incidunt quo, magnam quos placeat 
-  voluptatem vel, asperiores delectus inventore blanditiis similique. Ex, magni!
+    I am a self-taught Frontend Web Developer. I enjoy coding and the challenge 
+    of learning something new everyday. I am looking for a new challenge to work 
+    as a Frontend Web Developer to have the chance of practicing the skills 
+    I learned through my journey.
     </p>
 
       <a href="#contact" className='btn btn-primary'>Let's Talk</a>

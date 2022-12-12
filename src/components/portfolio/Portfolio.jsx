@@ -7,29 +7,33 @@ import IMG3 from '../../images/portfolio3.jpg'
 import IMG4 from '../../images/portfolio4.jpg'
 import IMG5 from '../../images/portfolio5.png'
 import IMG6 from '../../images/portfolio6.jpg'
+import PetShop from '../../images/pet-shop.png'
+import AdminPanel from '../../images/admin-panel.png'
+import Messenger from '../../images/messenger.png'
+
 
 // ...
 const data = [
 {
   id:1,
-  image:IMG1,
-  title:'Web Shop',
-  github:'https://github.com',
-  demo:'https://google.com'
+  image:PetShop,
+  title:'Pet Shop',
+  github:'https://github.com/zouhaier94/pet-shop-user-interface',
+  demo:'https://best-pet-shop.netlify.app'
 },
 {
   id:2,
-  image:IMG2,
-  title:'Web Shop',
-  github:'https://github.com',
-  demo:'https://google.com'
+  image:AdminPanel,
+  title:'Pet Shop Admin Panel',
+  github:'https://github.com/zouhaier94/pet-shop-admin-panel',
+  demo:'https://pet-shop-admin-panel.netlify.app'
 },
 {
   id:3,
-  image:IMG3,
-  title:'Web Shop',
-  github:'https://github.com',
-  demo:'https://google.com'
+  image:Messenger,
+  title:'Messenger',
+  github:'https://github.com/zouhaier94/realtime-private-chat-app',
+  demo:'https://new-messenger.netlify.app'
 },
 {
   id:4,

@@ -1,8 +1,9 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import './header.css'
-import CTA from '../header/CTA'
-import ME from '../../images/me.png'
-import HeaderSocials from './HeaderSocials'
+import {BsLinkedin} from 'react-icons/bs'
+import {FaGithub} from 'react-icons/fa'
+import CV from '../../assets/CV.pdf'
 
 const Header = () => {
   return (
@@ -11,10 +12,15 @@ const Header = () => {
         <h5>Hello I'm</h5>
         <h1>Zouhaier Boudaya</h1>
         <h5 className="text-light">Front-End Developer</h5>
-        <CTA/>
-        <HeaderSocials/>
-        <div className="me">
-          <img src={ME} alt="me" />
+
+        <div className='cta'>
+        <a href={CV} download className='btn'>Download CV</a>
+        <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+        </div>
+
+        <div className='header--socials'>
+          <a href="https://www.linkedin.com/in/zouhaier-boudaya-91a415145" target="_blank"><BsLinkedin/></a>
+          <a href="https://github.com/zouhaier94" target="_blank"> <FaGithub/></a>
         </div>
 
         <a href="#contact" className='scroll--down'> Scroll Down</a>
