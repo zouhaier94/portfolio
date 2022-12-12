@@ -3,7 +3,7 @@ import React from 'react'
 import './header.css'
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
-import CV from '../../assets/CV.pdf'
+import CV from '../../assets/cv.pdf'
 
 const Header = () => {
   return (
